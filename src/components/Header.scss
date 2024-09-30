@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    h1{
+        img{}
+    }
+    .nav{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    color: #333;
+                    padding: 30px 20px;
+                    text-decoration: none;
+                    &:hover{
+                        background: #ddd;
+                    }
+                }
+                &:last-child a{
+                    
+                }
+            }
+        }
+
+    }
+}

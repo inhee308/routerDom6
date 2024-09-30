@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background: pink;
+    .footer-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sns-wrap{
+            display: flex;
+            a{
+                padding: 0 5px;
+            }
+        }
+        .addr-wrap{
+            address{
+                text-align: center;
+                font-style: normal;
+                margin-top: 20px;
+            }
+        }
+    }
+}
